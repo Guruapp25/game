@@ -1942,3 +1942,10 @@ body {
   border-radius: inherit;
   display: block;
 }
+/* уменьшить +500% на телефонах */
+@media (max-width: 480px) {
+  .bonus-text strong {
+    font-size: 21px;
+    white-space: nowrap;
+  }
+}
